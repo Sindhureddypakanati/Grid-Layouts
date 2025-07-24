@@ -1,0 +1,68 @@
+
+*{
+    margin: 0px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.Container .Header {
+  grid-column: 1/4;
+  grid-row: 1;
+  background: linear-gradient(to right, #7b2ff7, #f107a3);
+  padding: 20px;
+  text-align: center;
+}
+.Container .Sidebar {
+  grid-column: 1;
+  grid-row: 2/4;
+  background: linear-gradient(to bottom, #00d2ff, #3a7bd5);
+  padding: 30px;
+}
+
+.Container .Content-1 {
+  grid-column: 2/4;
+  grid-row: 2;
+  background: linear-gradient(to bottom right, #00c6ff, #0072ff);
+  padding: 20px;
+}
+
+.Container .Content-2 {
+  grid-column: 2;
+  grid-row: 3;
+  background: linear-gradient(to bottom right, #8e2de2, #4a00e0);
+  padding: 20px;
+}
+
+.Container .Content-3 {
+  grid-column: 3;
+  grid-row: 3;
+  background: linear-gradient(to bottom right, #8e2de2, #4a00e0);
+  padding: 20px;
+}
+
+.Container .Footer {
+  grid-column: 1/4;
+  grid-row: 4;
+  background: linear-gradient(to right, #7b2ff7, #f107a3);
+  padding: 20px;
+  text-align: center;
+}
+.item{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 50px;
+    
+}
+.Container{
+    display:grid;
+    /*grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;*/
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    /*height: 100vh;*/
+    padding: 15px 15px;
+    margin-top: 80px;
+    color: white;
+    background-color: black;  
+}
+
+
